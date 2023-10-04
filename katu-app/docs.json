@@ -1,0 +1,100 @@
+[
+    {
+        "title": "介绍",
+        "links": [
+            {
+                "title": "关于卡兔",
+                "href": "about"
+            },
+            {
+                "title": "安装使用",
+                "href": "install"
+            }
+        ]
+    },
+    {
+        "title": "账号",
+        "links": [
+            {
+                "title": "创建/注销",
+                "href": "account"
+            },
+            {
+                "title": "兔币",
+                "href": "quota"
+            },
+            {
+                "title": "用量统计",
+                "href": "price"
+            }
+        ]
+    },
+    {
+        "title": "功能",
+        "links": [
+            {
+                "title": "保存卡片数据",
+                "href": "card"
+            },
+            {
+                "title": "分类管理卡片",
+                "href": "tag"
+            },
+            {
+                "title": "事件通知",
+                "href": "notice"
+            },
+            {
+                "title": "其他",
+                "href": "other_function"
+            }
+        ]
+    },
+    {
+        "title": "配置",
+        "links": [
+            {
+                "title": "通用",
+                "href": "configure"
+            },
+            {
+                "title": "安全",
+                "href": "security_configure"
+            }
+        ]
+    },
+    {
+        "title": "安全",
+        "links": [
+            {
+                "title": "主密码",
+                "href": "master_key"
+            },
+            {
+                "title": "快速密码",
+                "href": "mini_key"
+            },
+            {
+                "title": "备份主密码",
+                "href": "backup_key"
+            }
+        ]
+    },
+    {
+        "title": "杂项",
+        "links": [
+            {
+                "title": "平台限制",
+                "href": "tips"
+            },
+            {
+                "title": "云服务",
+                "href": "cloud"
+            },
+            {
+                "title": "开发",
+                "href": "dev"
+            }
+        ]
+    }
+]
