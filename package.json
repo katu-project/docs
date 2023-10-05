@@ -1,0 +1,16 @@
+{
+  "name": "katu-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "push:katu-app": "node ./push.js katu-app /home/docs/"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "batch": "^0.6.1",
+    "cos-nodejs-sdk-v5": "^2.12.4",
+    "dotenv": "^16.3.1"
+  }
+}
