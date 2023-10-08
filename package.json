@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "push:katu-app": "node ./push.js katu-app /home/docs/"
+    "push:katu-app": "node ./push.js katu-app /home/docs/",
+    "push:katu-dev": "node ./push.js katu-dev /dev/docs/"
   },
   "author": "",
   "license": "MIT",
