@@ -1,0 +1,58 @@
+[
+    {
+        "title": "开发者中心",
+        "links": [
+            {
+                "title": "介绍",
+                "href": "about"
+            },
+            {
+                "title": "开发类型",
+                "href": "type"
+            }
+        ]
+    },
+    {
+        "title": "参与贡献代码",
+        "links": [
+            {
+                "title": "介绍",
+                "href": ""
+            },
+            {
+                "title": "快速开始",
+                "href": ""
+            },
+            {
+                "title": "调试接口",
+                "href": ""
+            }
+        ]
+    },
+    {
+        "title": "构建自己的应用",
+        "links": [
+            {
+                "title": "介绍",
+                "href": ""
+            },
+            {
+                "title": "API",
+                "href": ""
+            },
+            {
+                "title": "SDK",
+                "href": ""
+            }
+        ]
+    },
+    {
+        "title": "其他",
+        "links": [
+            {
+                "title": "私有化部署",
+                "href": ""
+            }
+        ]
+    }
+]
