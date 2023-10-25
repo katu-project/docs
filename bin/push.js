@@ -36,15 +36,15 @@ function uploadFolder(localFolder, remotePrefix) {
                 Key: Key,
                 FilePath: file.path,
             };
-        });
-
-        files = files.filter(e=>!e.FilePath.endsWith('.DS_Store'))
+        }).filter(e=>!e.FilePath.endsWith('.DS_Store') && !e.FilePath.endsWith('/') )
+        //console.log(files.slice(0,5))
+   
         cos.uploadFiles(
             {
                 files: files,
                 SliceSize: 1024 * 1024,
                 onFileFinish: function (err, data, options) {
-                    console.log(options.Key + ' 上传' + (err ? '失败' : '完成'));
+                    console.log(options.Key + ' 上传' + (err ? '失败:' + options.FilePath  : '完成'));
                 },
             },
             function (err, data) {
@@ -54,6 +54,6 @@ function uploadFolder(localFolder, remotePrefix) {
     });
 }
 
-const pushDir = path.join(__dirname,process.argv[2])
-const cosDir = process.argv[3]
-uploadFolder(pushDir, cosDir)
+const subDir = process.argv[2] || ''
+const pushDir = path.resolve(__dirname,'../root',subDir)
+uploadFolder(pushDir, subDir + '/')

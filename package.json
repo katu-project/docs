@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "push:katu-app": "node ./push.js katu-app /home/docs/",
-    "push:katu-dev": "node ./push.js katu-dev /dev/docs/"
+    "serve": "http-server ./ -p 3001 --cors",
+    "push": "node ./bin/push.js",
+    "push:app": "node ./bin/push.js app",
+    "push:dev": "node ./bin/push.js dev"
   },
   "author": "",
   "license": "MIT",
@@ -13,5 +15,8 @@
     "batch": "^0.6.1",
     "cos-nodejs-sdk-v5": "^2.12.4",
     "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
   }
 }
