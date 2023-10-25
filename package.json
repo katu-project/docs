@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "http-server ./ -p 3001 --cors",
+    "serve": "http-server ./root -p 3001 --cors",
     "push": "node ./bin/push.js",
     "push:app": "node ./bin/push.js app",
     "push:dev": "node ./bin/push.js dev"
