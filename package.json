@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "serve": "http-server ./root -p 3001 --cors",
-    "push": "node ./bin/push.js",
-    "push:app": "node ./bin/push.js app",
-    "push:dev": "node ./bin/push.js dev"
+    "push": "bin/dep.sh",
+    "push:app": "bin/dep.sh app",
+    "push:dev": "bin/dep.sh dev"
   },
   "author": "",
   "license": "MIT",
@@ -17,6 +17,7 @@
     "dotenv": "^16.3.1"
   },
   "devDependencies": {
-    "http-server": "^14.1.1"
+    "http-server": "^14.1.1",
+    "tencentcloud-sdk-nodejs-cdn": "^4.0.717"
   }
 }
