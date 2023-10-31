@@ -13,36 +13,40 @@
         ]
     },
     {
-        "title": "参与贡献代码",
+        "title": "贡献代码",
         "links": [
             {
                 "title": "介绍",
-                "href": ""
+                "href": "pr-intro"
             },
             {
                 "title": "快速开始",
-                "href": ""
+                "href": "pr-start"
             },
             {
                 "title": "调试接口",
-                "href": ""
+                "href": "dev-api"
             }
         ]
     },
     {
-        "title": "构建自己的应用",
+        "title": "构建你的卡兔",
         "links": [
             {
                 "title": "介绍",
-                "href": ""
+                "href": "self-intro"
+            },
+            {
+                "title": "快速开始",
+                "href": "self-start"
             },
             {
                 "title": "API",
-                "href": ""
+                "href": "api"
             },
             {
                 "title": "SDK",
-                "href": ""
+                "href": "sdk"
             }
         ]
     },
@@ -51,7 +55,7 @@
         "links": [
             {
                 "title": "私有化部署",
-                "href": ""
+                "href": "self-hosted"
             }
         ]
     }
