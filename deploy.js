@@ -1,15 +1,16 @@
+// @ts-nocheck
 const path = require('path')
-const utils = require('@katucloud/utils')
-const cdn = utils.getAction('cdn')
-const cos = utils.getAction('cos')
+const config = require('dotenv').config().parsed
+const { cdn, cos } = require('@katucloud/utils')
 
 const dirName = process.argv[2] ||''
 const pushDir = path.resolve(__dirname,'./root',dirName)
 
-cos.uploadFolder(pushDir, dirName + '/')
+cos.uploadFolder(pushDir, dirName + '/', {config})
 
 const dirs = [
-    `https://cdn.katucloud.com/${dirName}`
+    `https://cdn.katucloud.com/${dirName}`,
+    `https://${dirName === 'dev' ? 'dev.' : ''}katucloud.com/`
 ]
 
-cdn.refreshDirs(dirs)
+cdn.refreshDirs(dirs, {config})
