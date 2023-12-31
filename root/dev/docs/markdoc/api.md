@@ -1,5 +1,5 @@
 ### 卡兔 API
-卡兔 API 提供完整卡兔服务接口，你可以使用卡兔 API 构建定制化服务。
+卡兔提供基于 HTTP 服务的 API 接口 ，你可以使用 API 获取完整的卡兔服务。
 
 #### API 地址
 [https://api.katucloud.com](https://api.katucloud.com)
@@ -9,6 +9,5 @@
 待补充
 
 #### API 列表
-
 
 待补充
